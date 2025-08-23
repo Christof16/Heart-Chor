@@ -1,0 +1,47 @@
+/* Global variables. */
+:root {
+    /* Set sans-serif & mono fonts */
+    --sans-font: "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+
+    /* Boxen und Kästen */
+    --standard-border-radius: 5px;
+    --border-width: 1px;
+
+    /* Dark theme */
+    --bg: #303030;
+    --accent-bg: #2b2b2b;
+    --text: #dcdcdc;
+    --text-light: #ababab;
+    --accent: #ff4c4c;
+    --accent-hover: #ffe099;
+    --disabled: #111;
+}
+
+
+body {
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: var(--sans-font) ;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr min(45rem, 90%) 1fr;
+    margin: 0;
+}
+body > * {
+    grid-column: 2;
+}
+
+/* Bilder über ganze Breite. */
+img{
+    width: 100%;
+}
+
+H1, H2 {
+    color: var(--accent);
+}
+
+
+a {
+    color: var(--accent);
+}
