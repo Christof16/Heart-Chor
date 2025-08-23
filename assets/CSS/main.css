@@ -52,6 +52,6 @@ a {
     text-decoration: underline; /* optional: Unterstreichen beim Hovern */
 }
 a:hover {
-    color: rgb(255, 171, 93);
+    color: var(--accent-hover);
     transform: scale(1.1);
 }
