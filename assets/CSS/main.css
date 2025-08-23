@@ -8,7 +8,7 @@
     --border-width: 1px;
 
     /* Dark theme */
-    --bg: #303030;
+    --bg: #2b2b2b;
     --accent-bg: #2b2b2b;
     --text: #dcdcdc;
     --text-light: #ababab;
@@ -19,7 +19,7 @@
 
 
 body {
-    color: var(--text);
+    color: var(--text); 
     background-color: var(--bg);
     font-family: var(--sans-font) ;
     font-size: 1.15rem;
@@ -37,11 +37,21 @@ img{
     width: 100%;
 }
 
-H1, H2 {
+H1, H2, H3 {
     color: var(--accent);
-}
 
+}
+H2, H3 {
+    margin-bottom: 0px;
+}
 
 a {
     color: var(--accent);
+    display: inline-block;
+    transition: transform 0.5s;
+    text-decoration: underline; /* optional: Unterstreichen beim Hovern */
+}
+a:hover {
+    color: rgb(255, 171, 93);
+    transform: scale(1.1);
 }
