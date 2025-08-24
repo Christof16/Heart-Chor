@@ -10,7 +10,6 @@
     /* Dark theme */
     --bg: #2b2b2b;
     --bg-header: #222222;
-    
     --bg-hover: #662900;
     --text: #dcdcdc;
     --text-alt: #7a7a7a;
@@ -20,7 +19,7 @@
 
 
 header {
-  text-align: center;
+  text-align:center;
   border-bottom: #646464 solid;
   background-color: var(--bg);   
   padding: 1rem;
