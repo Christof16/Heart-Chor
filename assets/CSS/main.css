@@ -9,7 +9,9 @@
 
     /* Dark theme */
     --bg: #2b2b2b;
-    --bg-alt: #662900;
+    --bg-header: #252525;
+    
+    --bg-hover: #662900;
     --text: #dcdcdc;
     --text-alt: #646464;
     --accent: #ff4c4c;
@@ -17,11 +19,11 @@
 }
 
 header {
-  background-color: var(--bg);   
+  background-color: var(--bg-header);   
   padding: 0px;
 }
 header:hover {
-    background-color: var(--bg-alt);
+    background-color: var(--bg-hover);
 }
 
 
