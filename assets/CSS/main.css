@@ -26,6 +26,7 @@ header {
 }
 */
 
+
 .nav {
   display: flex;
   justify-content: space-between; /* oder: space-around | space-evenly */
@@ -35,7 +36,16 @@ header {
     border-bottom: #646464 solid;
 
 }
+
 .nav a { text-decoration: none; }
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;   /* statt Reihe → Spalte */
+    align-items: flex-start;  /* Links linksbündig */
+    gap: 0.5rem;
+  }
+}
 
 
 
