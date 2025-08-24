@@ -17,13 +17,27 @@
     --accent-hover: #ffe099;
 }
 
-
+/*
 header {
   text-align:center;
   border-bottom: #646464 solid;
   background-color: var(--bg);   
   padding: 1rem;
 }
+*/
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* oder: space-around | space-evenly */
+  align-items: center;
+  gap: 1rem;                       /* optionaler Abstand */
+  padding: 0.5rem 1rem;            /* Innenabstand für Luft */
+    border-bottom: #646464 solid;
+
+}
+.nav a { text-decoration: none; }
+
+
 
 body {
     color: var(--text); 
