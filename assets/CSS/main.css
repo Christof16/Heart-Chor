@@ -19,21 +19,20 @@
 
 
 .nav {
-    display: flex;
-    justify-content: space-between; /* oder: space-around | space-evenly */
-    align-items: center;
-    gap: 1rem;                       /* optionaler Abstand */
-    padding: 0.5rem 1rem;            /* Innenabstand für Luft */
-    border-bottom: 2px #646464 solid;
+    display: flex;      /*  .nav ist jetzt ein  Flex-Container */
+    justify-content: space-between;  /* Verteilt die Items entlang der Hauptachse (hier horizontal) mit dem freien Platz *zwischen* den Items. */
+    align-items: center;             /* Richtet die Items senkrecht zur Hauptachse (hier vertikal) zentriert aus */
+    gap: 1rem;                       /* Abstand zwischen den Flex-Items. 1rem entspricht der Root-Schriftgröße */
+    padding: 0.5rem 1rem;            /* Innenabstand des .nav-Containers: oben/unten */
+    border-bottom: 2px #646464 solid; /* Linie unterhalb des Menüs */
 }
+.nav a { text-decoration: none; } /* Entfernt die Standard-Unterstreichung der Links im Nav*/
 
-.nav a { text-decoration: none; }
-
-@media (max-width: 600px) {
+@media (max-width: 600px) {    /* für kleines Handy Display */
   .nav {
-    flex-direction: column;   /* statt Reihe → Spalte */
-    align-items: flex-start;  /* Links linksbündig */
-    gap: 0.5rem;
+    flex-direction: column;    /* statt Reihe → Spalte */
+    align-items: flex-start;   /* Spalten linksbündig */
+    gap: 0.5rem;               /*Etwas kleinerer Abstand zwischen den untereinander stehenden Links */
   }
 }
 
