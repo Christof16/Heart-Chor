@@ -20,11 +20,9 @@
 
 
 header {
+  text-align: center;
   background-color: var(--bg-header);   
-  padding: 0px;
-}
-header:hover {
-    background-color: var(--bg-hover);
+  padding: 1rem;
 }
 
 body {
