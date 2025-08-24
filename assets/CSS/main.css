@@ -18,6 +18,7 @@
     --accent-hover: #ffe099;
 }
 
+
 header {
   background-color: var(--bg-header);   
   padding: 0px;
@@ -25,7 +26,6 @@ header {
 header:hover {
     background-color: var(--bg-hover);
 }
-
 
 body {
     color: var(--text); 
