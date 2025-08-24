@@ -9,18 +9,17 @@
 
     /* Dark theme */
     --bg: #2b2b2b;
-    --bg-Header: #363636;
+    --bg-Header: #242323;
     --text: #dcdcdc;
-    --text-light: #ababab;
+    --text-alt: #646464;
     --accent: #ff4c4c;
     --accent-hover: #ffe099;
 }
 
 header {
-  background-color: var(--bg-Header);   /* dunkler Hintergrund */
+  background-color: var(--bg-Header);   
   padding: 0px;
-  border-bottom: 1px solid var(--text);
-  border-top: 1px solid var(--text);
+  border-bottom: 2px solid var(--text-alt);
 }
 
 body {
