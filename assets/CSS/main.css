@@ -18,7 +18,7 @@
 }
 
 
-.nav {
+.nav {                  /* für das Menü */
     display: flex;      /*  .nav ist jetzt ein  Flex-Container */
     justify-content: space-between;  /* Verteilt die Items entlang der Hauptachse (hier horizontal) mit dem freien Platz *zwischen* den Items. */
     align-items: center;             /* Richtet die Items senkrecht zur Hauptachse (hier vertikal) zentriert aus */
@@ -58,11 +58,13 @@ img{
 
 H1, H2, H3 {
     color: var(--accent);
+
 /* Abstand Überschrift -- Absatz */
 }
 H1, H2, H3, H4 {
     margin-bottom: 0px;
 }
+
 
 a {
     color: var(--accent);
@@ -73,6 +75,13 @@ a {
 a:hover {
     color: var(--accent-hover);
     transform: scale(1.1);
+}
+
+/*  Tabellen (alle) */
+td:first-child,
+th:first-child {
+  color: var(--accent-hover);        /* Textfarbe */
+  font-weight: bold;     /* optional: fett */
 }
 
 .impressum {
