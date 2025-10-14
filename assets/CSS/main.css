@@ -78,10 +78,11 @@ a:hover {
 }
 
 /*  Tabellen (alle) */
-td:first-child,
-th:first-child {
-  color: var(--accent-hover);        /* Textfarbe */
-  font-weight: bold;     /* optional: fett */
+td:first-child,     /* erste <td> in jeder Tabellenzeile <tr> */
+th:first-child      /* erste <th> in der Kopfzeile, falls vorhanden <th> */
+{  
+  color: var(--accent-hover);       /* Textfarbe */
+  font-weight: bold;                /* fett */
 }
 
 .impressum {
