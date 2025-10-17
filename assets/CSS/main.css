@@ -58,6 +58,13 @@ img{
 
 H1, H2, H3 {
     color: var(--accent);
+}
+
+H2 {
+    font-size: 1.2em; /* ein bisschen kleiner */
+    font-weight: bold;
+}
+
 
 /* Abstand Überschrift -- Absatz */
 }
