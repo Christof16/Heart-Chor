@@ -56,7 +56,8 @@ img{
     width: 100%;
 }
 
-H1, H2, H3 {
+H1, H2, H3, H4 {
+    margin-bottom: 2px; /* Abstand Überschrift -- Absatz */
     color: var(--accent);
 }
 
@@ -65,13 +66,14 @@ H2 {
     font-weight: bold;
 }
 
-
-/* Abstand Überschrift -- Absatz */
+/* Zitate formatieren*/
+blockquote {
+    margin: 0.1em 0 0.1em 0.8em;
+    padding-left: 0.6em;
+    border-left: 3px solid var(--accent-hover);  /* Links neben dem Zitat ein vertikaler Strich */
+    color: var(--accent-hover);
+    font-style: italic;
 }
-H1, H2, H3, H4 {
-    margin-bottom: 0px;
-}
-
 
 a {
     color: var(--accent);
