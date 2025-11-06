@@ -89,9 +89,18 @@ a:hover {
 /*  Tabellen (alle) */
 td:first-child,     /* erste <td> in jeder Tabellenzeile <tr> */
 th:first-child      /* erste <th> in der Kopfzeile, falls vorhanden <th> */
+
 {  
-  color: var(--accent-hover);       /* Textfarbe */
-  font-weight: bold;                /* fett */
+    color: var(--accent-hover);       /* Textfarbe */
+    font-weight: bold;                /* fett */
+}
+
+/* Sozial media */
+.social-links a img {
+    width: 45px;
+    height: 45px;
+    /*filter: invert(13%) sepia(75%) saturate(5400%) hue-rotate(340deg) brightness(90%) contrast(95%);*/
+    filter:  invert(70%) 
 }
 
 .impressum {
