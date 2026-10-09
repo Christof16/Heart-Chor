@@ -66,6 +66,12 @@ H2 {
     font-weight: bold;
 }
 
+H3 {
+    font-size: 1.0em; /* ein bisschen kleiner */
+    font-weight: bold;
+}
+
+
 /* Zitate formatieren*/
 blockquote {
     margin: 0.1em 0 0.1em 0.8em;
